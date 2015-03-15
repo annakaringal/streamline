@@ -9,7 +9,7 @@
       </div>
       <!--body-->
       <div class="modal-body control-group">
-          <form role="form" method="post" action="../login/signin.php">
+          <form role="form" method="post" action="forms/signin.php">
               <div class="form-group email"><input type="email" class="form-control" placeholder="email address" name="email"/></div>
               <div class="form-group password"><input type="password" class="form-control" placeholder="password" name="password"/></div>
 

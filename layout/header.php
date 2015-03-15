@@ -1,3 +1,4 @@
+<?php include("path.php");?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,12 +7,12 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name ="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	
-	<link href="/css/streamline.css" rel="stylesheet">
-	<link href="/css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/streamline.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script src="/js/bootstrap.min.js"></script>
-	<script src="/js/jquery.validate.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.validate.js"></script>
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -68,11 +69,10 @@
 
 </head>
 <body>
-
 	<!--modals-->
-	<?php require_once ('login/forms/signform.php'); ?>
-    <?php require_once ('login/forms/regform.php'); ?>
-
+	<?php require_once ('forms/signform.php'); ?>
+	    <?php require_once ('forms/regform.php'); ?>
+    <!--navbar-->
 	<?php require_once('nav.php'); ?>
 
 	<div class="container-fluid" style="text-align:center;">
