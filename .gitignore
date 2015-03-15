@@ -1,5 +1,6 @@
 forms/connect.php
 demos_db_settings.php
+error_log
 
 ### OSX ###
 .DS_Store
