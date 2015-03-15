@@ -1,0 +1,124 @@
+/*!
+Streamline.TV CSS 
+by Anna Karingal
+MEDP 341 - May 2014
+*/
+
+@font-face
+{
+font-family: 'streamLine';
+src: url('../fonts/FuturaExtended.ttf');
+}
+@font-face
+{
+font-family: 'streamLine';
+src: url('../fonts/FuturaExtended.ttf');
+font-weight:bold;
+}
+html { position:relative; min-height:100%; }
+
+body { padding-top: 50px; padding-bottom: 60px; }
+
+h1 {
+	font-family: streamLine !important;
+	color:#14afb9 !important; 
+	font-weight:bold !important;
+	font-size:48px !important;
+}
+h2 {
+	font-family: streamLine !important;
+	color:#14afb9 !important; 
+	font-weight:bold !important;
+}
+
+a { color:#333 }
+
+a:visited { color:#333; }
+
+/*NAV BAR*/
+.supported { padding-top:20px; }
+
+.slbrand{
+	font-size:28px !important;
+	color:#fff !important;
+	font-family: streamLine !important;
+	font-weight:bold !important;
+}
+
+.navbrowse { font-weight: bold; }
+
+.navbar-right a {
+	color:#333 !important;
+	text-decoration: underline !important;
+	margin-top:10px;
+}
+
+@media (max-width:767px){
+	.navbar-collapse { background-color:#000; }
+	.navbar-collapse .navbrowse { color:#fff !important;}
+	.navbar-right { padding-bottom:10px; color:#fff;}
+	.navbar-right a#regBtn { color:#fff !important ;}
+}
+
+/*LIST OF SERVICES*/
+
+.service { padding:10px; }
+
+.service img { height:40px; }
+
+.service-row {
+	margin:auto;
+}
+
+/*ROW HEADERS*/
+.row-header {
+	display:block;
+	width:100%;
+	margin:0;
+}
+.row-header-left{ float:left; }
+
+.row-header-right{ float:right; }
+
+/*INDIV MOVIE DIV*/
+.movie {
+	text-align:center;
+	padding:5px;
+	list-style-image: none;
+}
+
+.movie a {
+	font-size:80%;
+	text-decoration: underline;
+	font-color:#333;
+}
+
+.movie a:hover { font-color:#14afb9; }
+
+a.title { padding-bottom:5px; }
+
+/*FOOTER BAR*/
+
+.footbar { 
+	background-color:#c0c0c0; 
+	font-size:80%;
+	color:#333;
+	padding:10px;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:30px;
+}
+
+.footbar li {
+	display:block;
+	position:relative;
+	padding-left:5px;
+	padding-right:5px;
+	float:left;
+}
+
+.footbar-left { float: left; }
+
+.footbar-right { float: right; }
+
