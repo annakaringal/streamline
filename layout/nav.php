@@ -9,7 +9,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand slbrand" href="/">streamline</a>
+          <a class="navbar-brand slbrand" href="#">streamline</a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
